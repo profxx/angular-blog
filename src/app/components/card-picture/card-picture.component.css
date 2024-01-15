@@ -1,0 +1,24 @@
+.card_pictures{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.picture_line{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-for-card{
+  margin-left: 10px;
+  margin-top: 10px;
+  max-width: 120px;
+}
+.image-for-card:hover{
+  border: 1px solid rgb(9,44,219);
+  -webkit-box-shadow: -1px 1px 60px -20px rgba(9,44,219,1);
+  -moz-box-shadow: -1px 1px 60px -20px rgba(9,44,219,1);
+  box-shadow: -1px 1px 60px -20px rgba(9,44,219,1);
+}
+

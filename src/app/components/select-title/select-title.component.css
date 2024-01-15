@@ -1,0 +1,16 @@
+.container__select-title{
+  display: flex;
+  flex-direction: column;
+}
+.container__select-title >h1{
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.container__select-title >hr{
+  border-color: darkgray;
+  margin-top: 12px;
+}

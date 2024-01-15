@@ -1,0 +1,17 @@
+.main-elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left-element{
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  min-height: 400px;
+}
+.right-element{
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+  min-height: 400px;
+}

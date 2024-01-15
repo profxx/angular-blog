@@ -1,0 +1,21 @@
+.container__main-title >hr{
+  border-color: darkgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container__main-title >h1{
+  font-size: 100px;
+  font-family: "ONE PIECE";
+  letter-spacing: 6px;
+  background: -webkit-linear-gradient(#317dff, #06007d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
