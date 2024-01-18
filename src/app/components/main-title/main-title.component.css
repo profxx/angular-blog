@@ -1,21 +1,22 @@
-.container__main-title >hr{
-  border-color: darkgray;
+.container__main-title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
+.container__main-title >h4{
+  color: rgb(73, 73, 73);
+}
+
 .container__main-title >h1{
-  font-size: 100px;
+  font-size: 60px;
   font-family: "ONE PIECE";
   letter-spacing: 6px;
   background: -webkit-linear-gradient(#317dff, #06007d);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-
 }
 
 

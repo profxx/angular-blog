@@ -4,10 +4,25 @@
 
   <div class="left-element">
     <app-select-title></app-select-title>
-    <app-card-picture></app-card-picture>
+    <div class="picture-line">
+      <app-card-picture [imgCardDetails]="characterPhotoList[0]" (showDetails)="onShowDetails(0)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[1]" (showDetails)="onShowDetails(1)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[2]" (showDetails)="onShowDetails(2)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[3]" (showDetails)="onShowDetails(3)"></app-card-picture>
+    </div>
+    <div class="picture-line">
+      <app-card-picture [imgCardDetails]="characterPhotoList[4]" (showDetails)="onShowDetails(4)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[5]" (showDetails)="onShowDetails(5)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[6]" (showDetails)="onShowDetails(6)"></app-card-picture>
+      <app-card-picture [imgCardDetails]="characterPhotoList[7]" (showDetails)="onShowDetails(7)"></app-card-picture>
+    </div>
   </div>
   <div class="right-element">
-    <app-detail-card></app-detail-card>
+    <app-detail-card 
+    [isEnabled]="isEnabled"
+    [photoCover]="characterPhotoList[i]"
+    [cardTitle]="characterTitleList[i]"
+    cardDetailText="Dentro do pacote, você obtém um guitarrista amador destreinado, mas apaixonado por música."></app-detail-card>
   </div>
 
 </div>

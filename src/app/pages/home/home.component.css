@@ -11,7 +11,11 @@
 }
 .right-element{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   min-width: 500px;
   min-height: 400px;
+}
+.picture-line{
+  display: flex;
+  flex-direction: row;
 }
