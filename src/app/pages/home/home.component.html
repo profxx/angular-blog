@@ -18,11 +18,11 @@
     </div>
   </div>
   <div class="right-element">
-    <app-detail-card 
+    <app-detail-card
     [isEnabled]="isEnabled"
-    [photoCover]="characterPhotoList[i]"
+    [photoCover]="characterLargePhotoList[i]"
     [cardTitle]="characterTitleList[i]"
-    cardDetailText="Dentro do pacote, você obtém um guitarrista amador destreinado, mas apaixonado por música."></app-detail-card>
+    [cardDetailText]="characterDescriptionList[i]"></app-detail-card>
   </div>
 
 </div>

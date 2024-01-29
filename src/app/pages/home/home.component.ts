@@ -18,19 +18,51 @@ export class HomeComponent {
     '../../../assets/images/ale_computer04-interpreter.jpg',
     '../../../assets/images/ale_computer06-crowd.jpg',
     '../../../assets/images/ale_computer09-logistics.jpg',
-    '../../../assets/images/ale_computer07-guitar.jpg',
-    '../../../assets/images/ale_computer09-business.jpg'
+    '../../../assets/images/ale_computer09-business.jpg',
+    '../../../assets/images/ale_computer07-guitar.jpg'
+  ]
+  characterLargePhotoList:string[] = [
+    '../../../assets/images/react-vite-typescript-postgresql.gif',
+    '../../../assets/images/bootstrapcss.gif',
+    '../../../assets/images/ale_computer04-english-large.jpg',
+    '../../../assets/images/banco-de-dados.png',
+    '../../../assets/images/buzzfeed-quiz.gif',
+    '../../../assets/images/instrutor.gif',
+    '../../../assets/images/pokedex.gif',
+    '../../../assets/images/ale_computer07-guitar-large.jpg'
   ]
   characterTitleList:string[] = [
-    'Xanxan na Guitarra',
-    'Xanxan no GitHub',
-    'Xanxan no Angular',
-    'Xanxan no PHP',
-    'Xanxan no HTML',
-    'Xanxan no CSS',
-    'Xanxan na Logística',
-    'Xanxan na Brigada de Incêndio'
+    'Alexandre com React, Vite e Typescript',
+    'Alexandre com PHP com Bootstrap',
+    'Alexandre e o Inglês',
+    'Alexandre e os BDs',
+    'Alexandre criando Quiz de Perguntas',
+    'Alexandre como Instrutor',
+    'Alexandre e a API da lista de Pokemons',
+    'Alexandre e a Guitarra'
   ]
+
+  characterDescriptionList:string[] = [
+    'Projeto Frontend com cardápio online, utilizando React, Vite, React e Typescript, combinando Bootstrap e Java no backend',
+    'Uso de PHP fazendo o projeto do zero, utilizando MySQL, CSS e Bootstrap, site responsivo e hospedado, fazendo a função de SGE (Sistema de Gestão Educacional)',
+    '14 anos de experiência em aulas de inglês, passando por WiseUp, Cultura Inglesa, Colégio Dom Bosco e a foto é da aula particular online, que acontece em pequenos grupos ou individual. Instagram: @teacher.alexandre',
+    "Conhecimento em modelagem de banco de dados e linguagem SQL. Experiência com MySQL, e conhecimento em PostrgreSQL, como utilizado no projeto do cardápio.",
+    "Criação de perguntas, qualitativas, com alimentação automática com arquivo JSON, como em uma API, no entanto, essa é alimentada localmente.",
+    "Formado em Tecnlogia em Sistemas de Computação pela UFF e Administração, com pós em Logística, atua como instrutor de Desenvolvimento de Sistemas, Administração e Logística.",
+    "Projeto com NodeJS, HTML e CSS, consumindo uma API do site de pokemons em tempo real.",
+    "Dentro do pacote, você obtém um guitarrista amador destreinado, mas apaixonado por música."
+  ]
+  characterProjectLinks:string[] = [
+    'Projeto Frontend com cardápio online, utilizando React, Vite, React e Typescript, combinando Bootstrap e Java no backend',
+    'Uso de PHP fazendo o projeto do zero, utilizando MySQL, CSS e Bootstrap, site responsivo e hospedado, fazendo a função de SGE (Sistema de Gestão Educacional)',
+    '14 anos de experiência em aulas de inglês, passando por WiseUp, Cultura Inglesa, Colégio Dom Bosco e a foto é da aula particular online, que acontece em pequenos grupos ou individual. Instagram: @teacher.alexandre',
+    "Conhecimento em modelagem de banco de dados e linguagem SQL. Experiência com MySQL, e conhecimento em PostrgreSQL, como utilizado no projeto do cardápio.",
+    "Criação de perguntas, qualitativas, com alimentação automática com arquivo JSON, como em uma API, no entanto, essa é alimentada localmente.",
+    "Formado em Tecnlogia em Sistemas de Computação pela UFF e Administração, com pós em Logística, atua como instrutor de Desenvolvimento de Sistemas, Administração e Logística.",
+    "Projeto com NodeJS, HTML e CSS, consumindo uma API do site de pokemons em tempo real.",
+    "Dentro do pacote, você obtém um guitarrista amador destreinado, mas apaixonado por música."
+  ]
+
   onShowDetails(i:number){
     this.isEnabled = true;
     this.photoCover= this.characterPhotoList[i];

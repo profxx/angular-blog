@@ -11,7 +11,7 @@
   color: rgb(229, 229, 229);
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bolder;
 
 }
 .card_detail_text{
@@ -19,12 +19,12 @@
   max-width: 450px;
 }
 .card_detail_text >p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  color: rgb(138, 138, 138);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(255,255,255);
 }
 .image{
   cursor: pointer;
-  padding: 0 100px 0 100px;
+  padding: 0;
   background-color: #597790;
 }
