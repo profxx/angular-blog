@@ -13,4 +13,10 @@
   -moz-box-shadow: -1px 1px 60px -20px rgba(9,44,219,1);
   box-shadow: -1px 1px 60px -20px rgba(9,44,219,1);
 }
-
+@media screen and (max-width: 400px) {
+  .image-for-card{
+    margin-left: 5px;
+    margin-top: 5px;
+    max-width: 60px;
+  }
+}

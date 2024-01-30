@@ -43,7 +43,7 @@ export class HomeComponent {
   ]
 
   characterDescriptionList:string[] = [
-    'Projeto Frontend com cardápio online, utilizando React, Vite, React e Typescript, combinando Bootstrap e Java no backend',
+    'Projeto Frontend com cardápio online, utilizando React, Vite e Typescript, combinando Bootstrap e Java no backend',
     'Uso de PHP fazendo o projeto do zero, utilizando MySQL, CSS e Bootstrap, site responsivo e hospedado, fazendo a função de SGE (Sistema de Gestão Educacional)',
     '14 anos de experiência em aulas de inglês, passando por WiseUp, Cultura Inglesa, Colégio Dom Bosco e a foto é da aula particular online, que acontece em pequenos grupos ou individual. Instagram: @teacher.alexandre',
     "Conhecimento em modelagem de banco de dados e linguagem SQL. Experiência com MySQL, e conhecimento em PostrgreSQL, como utilizado no projeto do cardápio.",
